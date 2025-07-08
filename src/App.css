@@ -564,3 +564,39 @@ body, html, #root, .dm-root {
     padding: 0.7rem 0.7rem;
   }
 }
+
+@media (max-width: 700px) {
+  .dm-navbar ul {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #1976d2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    z-index: 100;
+  }
+  .dm-navbar ul.open {
+    display: flex;
+  }
+  .dm-navbar li {
+    width: 100%;
+    text-align: center;
+  }
+  .dm-navbar a {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+  }
+  .dm-hamburger {
+    z-index: 200;
+    position: relative;
+  }
+}
