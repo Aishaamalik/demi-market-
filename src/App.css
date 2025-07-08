@@ -434,3 +434,133 @@ body, html, #root, .dm-root {
     padding: 1rem 0;
   }
 }
+@media (max-width: 600px) {
+  .dm-navbar {
+    padding: 0.7rem 0.3rem;
+  }
+  .dm-logo {
+    font-size: 1.1rem;
+  }
+  .dm-hamburger {
+    z-index: 200;
+  }
+  .dm-navbar ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    display: none;
+    z-index: 150;
+  }
+  .dm-navbar ul.open {
+    display: flex;
+  }
+  .dm-navbar li {
+    width: 100%;
+    text-align: center;
+  }
+  .dm-navbar a {
+    font-size: 1.3rem;
+    padding: 1.2rem 0;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+  }
+  .dm-section {
+    padding: 0.7rem 0.1rem;
+  }
+  .dm-hero {
+    padding: 1.2rem 0.2rem 0.7rem 0.2rem;
+  }
+  .dm-hero h1 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .dm-hero p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .dm-cta-btn {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.2rem;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
+  .dm-services-grid {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .dm-service-card {
+    padding: 0.8rem 0.3rem;
+    min-width: 0;
+    font-size: 0.98rem;
+  }
+  .dm-service-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .dm-about-detail {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .dm-about-text {
+    font-size: 0.98rem;
+  }
+  .dm-about-img {
+    max-width: 120px;
+    padding: 0.3rem;
+  }
+  .dm-about-img img {
+    border-radius: 8px;
+  }
+  .dm-testimonial-slide {
+    padding: 0.7rem 0.2rem;
+    font-size: 0.95rem;
+  }
+  .dm-testimonial-avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+  }
+  .dm-testimonial-arrow {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.1rem;
+  }
+  .dm-contact-form input, .dm-contact-form textarea {
+    font-size: 0.98rem;
+    padding: 0.6rem 0.6rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .dm-contact-form button {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  .dm-footer {
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+  }
+}
+@media (max-width: 400px) {
+  .dm-hero h1 {
+    font-size: 0.95rem;
+  }
+  .dm-navbar a {
+    font-size: 1rem;
+    padding: 0.8rem 0;
+  }
+  .dm-cta-btn {
+    font-size: 1rem;
+    padding: 0.7rem 0.7rem;
+  }
+}
