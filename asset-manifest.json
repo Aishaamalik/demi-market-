@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/demi-market-/static/css/main.05b62a8e.css",
+    "main.css": "/demi-market-/static/css/main.e2a6720d.css",
     "main.js": "/demi-market-/static/js/main.d5ad0d2f.js",
     "static/js/453.8145ecbf.chunk.js": "/demi-market-/static/js/453.8145ecbf.chunk.js",
     "index.html": "/demi-market-/index.html",
-    "main.05b62a8e.css.map": "/demi-market-/static/css/main.05b62a8e.css.map",
+    "main.e2a6720d.css.map": "/demi-market-/static/css/main.e2a6720d.css.map",
     "main.d5ad0d2f.js.map": "/demi-market-/static/js/main.d5ad0d2f.js.map",
     "453.8145ecbf.chunk.js.map": "/demi-market-/static/js/453.8145ecbf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05b62a8e.css",
+    "static/css/main.e2a6720d.css",
     "static/js/main.d5ad0d2f.js"
   ]
 }
